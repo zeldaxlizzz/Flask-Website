@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="../static/css/style.css">
+<script src="../static/js/script.js"> </script>
+<script src="https://kit.fontawesome.com/6098a3efd8.js" crossorigin="anonymous"></script>
+</head>
+ <body>
+   <!--Start of container -->
+   <div class="container">
+            <!--Start of header -->
+     <div class="header">
+       <a href="index.html"><img src="../static/assets/logo.png" alt="logo" width="350px" ></a>
+       <div class="nav-bar">
+         <a href="/">Home </a>
+         <a href="/about">About </a>
+         <a href="/shop">Shop </a>
+         <a href="/contact">Contact </a>
+       </div>
+     </div>
+     <!--end of header -->
+                  {%block content%}
+                  {%endblock%}
+     <!--Start of footer -->
+     <div class="footer">
+     <h3><u>Social</u></h3>
+      <a href="https://www.facebook.com"><i class="fab fa-facebook-square"></i></a>
+      <a href="https://www.twitter.com"><i class="fab fa-twitter-square"></i></a>
+      <a href="https://www.discord.com"><i class="fab fa-discord"></i></a>
+     <p> Copyright <i class="far fa-copyright"> </i> <script>document.write(new Date().getFullYear());</script>  Alex Tom | <a style="color:#00a950;" href="#">All rights reserved</a> </p>
+     </div>
+     <!--end of footer -->
+
+   </div>
+   <!--end of container -->
+
+ </body>
+
+</html>
